@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+
+}
+body {
+    background-color: hsl(1, 74%, 88%);
+    font-family: 'poppins', sans-serif;
+    min-height: 100vh;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #f087ba;
+    border-radius: 5px;
+   
+    margin: 0 auto;
+    
+}
+button {
+    background-color: #e9ee46;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #d88771;
+    color: #0a0a0a;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+  .task-container {
+    margin-top: 10%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #f087ba;
+    margin: 0 auto;
+  }
+
+  .checkbox {
+    width: 30px;
+  }
+  /*.checkbox:checked + .todo-text {
+    text-decoration: line-through;
+    color: #d22929;
+    accent-color: #ee2a2a;
+
+  }*/
+  .todo-list {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    border: 1px solid #eeaf1b;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    margin-bottom: 15px;
+  }
+
+  .todo-item {
+    display: flex;
+      justify-content: left;
+      padding: 20px;
+  }
+
+  .todo-text {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #e9ee46;
+  }
+  .todo-date {
+    font-size: 16px;
+    color: #0a0a0a;
+    background-color: #ffecd2;
+  }
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .button-date {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-x {
+    padding: 3px;
+    margin-bottom: 40px;
+  }
